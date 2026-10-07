@@ -15,3 +15,38 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# ---------------------------------------------------------------
+# dotenv-sherpa additions
+# ---------------------------------------------------------------
+
+# Build output
+*.class
+*.jar
+
+# IDE folders
+.idea/
+*.iml
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Secrets: this tool handles them, so never commit them
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Local sherpa state and config (hashes, machine-specific settings)
+.sherpa/
+*.state
+sherpa.local.yml
