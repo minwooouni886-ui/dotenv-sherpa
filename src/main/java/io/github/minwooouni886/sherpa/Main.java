@@ -1,10 +1,10 @@
 package io.github.minwooouni886.sherpa;
 
-/**
- * Hello world!
- */
+import picocli.CommandLine;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int exitCode = new CommandLine(new Sherpa()).execute(args);
+        System.exit(exitCode);
     }
 }
