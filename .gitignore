@@ -50,3 +50,4 @@ id_ed25519*
 .sherpa/
 *.state
 sherpa.local.yml
+test.env
