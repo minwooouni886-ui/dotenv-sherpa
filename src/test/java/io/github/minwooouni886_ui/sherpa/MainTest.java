@@ -1,4 +1,4 @@
-package io.github.minwooouni886.sherpa;
+package io.github.minwooouni886_ui.sherpa;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

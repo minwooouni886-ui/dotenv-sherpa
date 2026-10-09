@@ -1,4 +1,4 @@
-package io.github.minwooouni886.sherpa;
+package io.github.minwooouni886_ui.sherpa;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;

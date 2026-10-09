@@ -1,4 +1,4 @@
-package io.github.minwooouni886.sherpa;
+package io.github.minwooouni886_ui.sherpa;
 
 import picocli.CommandLine.Model.CommandSpec;
 import picocli.CommandLine.Spec;
