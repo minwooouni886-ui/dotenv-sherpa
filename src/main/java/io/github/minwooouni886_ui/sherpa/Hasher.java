@@ -1,4 +1,4 @@
-package io.github.minwooouni886.sherpa;
+package io.github.minwooouni886_ui.sherpa;
 
 import java.io.IOException;
 import java.nio.file.Files;
